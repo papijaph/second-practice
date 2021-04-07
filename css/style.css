@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Kiwi+Maru:wght@300&display=swap');
+html,body {
+    height: 100%;
+    font-size: 1rem;
+    font-family: 'Kiwi Maru', serif;
+}
+
+.gradient {
+    background: rgb(227,188,44);
+    background: linear-gradient(90deg, rgba(227,188,44,1) 0%, rgba(158,196,119,1) 37%);
+}
+
+.page-header {
+    color: #fff;
+    margin-top: 4rem;
+    font: 1.25rem;
+}
+.features {
+    color: #fff;
+}
+.features ul {
+    list-style-type: none;
+    padding: 2rem;
+}
+.features ul li {
+    background-image: url(../img/check.svg);
+    background-repeat: no-repeat;
+    padding-left: 2rem;
+    line-height: 1.5rem;
+    margin-bottom: 1rem;
+
+}
+
+
+
+.icon {
+    color:#fff;
+    height: 5rem;
+    width: 5rem;
+    font-size: 1.75rem;
+    border-radius: 100%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+.gallery {
+    background-color: aliceblue;
+}
+.gallery img {
+    border-radius: 5%;
+}
+.services {
+    color: #fff;
+}
+footer {
+    color: #fff;
+    font-size: 1rem;
+    padding: 1rem;
+    margin: 0;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.visual .lite2 ul {
+    list-style-type: none;
+}
+
+.visual .lite-btn {
+    padding-left: 2rem;
+    padding-top: 5rem;
+}
+
+.visual .basic2 ul {
+    list-style-type: none;
+}
+
+.visual .basic3 {
+    padding-left: 2rem;
+    padding-top: 2rem;
+}
+.visual .advanced2 ul {
+    list-style-type: none;
+}
+.visual .advanced3 {
+    padding-left: 2rem;
+    padding-top: 3.5rem;
+}
+
+.visual .master2 ul {
+    list-style-type: none;
+
+} 
+.visual .master3 {
+    padding-left: 2rem;
+    padding-top: 2rem;
+}
+
+.visual .elite {
+    padding-left: 35rem;
+    padding-top: 3rem;
+}
+
+.help ul {
+    list-style-type: none;
+}
+
+.help ul li {
+    background-image: url(../img/check.svg);
+    background-repeat: no-repeat;
+    padding-left: 2rem;
+    line-height: 1.5rem;
+    margin-bottom: 1rem;
+    border-top: 1px solid;
+}
+
+.help {
+    background-color: whitesmoke;
+}
+
+.Tired {
+    margin-top: 60px;
+}
+.inspiration {
+    background-image: url(../img/woman.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    position: relative;
+    
+}
+.vera {
+    position: absolute;
+    top: 45%;
+    left: 40%;
+}
+
+
+.vera h2 {
+    align-items: center;
+    text-align: center;
+    color: whitesmoke;
+    font-weight: 700;
+}
+
+
+.inspiron h2 {
+    color:  rgb(227,188,44);
+    font-size: x-large;
+}
+.card {
+    background-color: #fff;
+    color: #333;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 20px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+.mark h2 {
+    font-weight: 500;
+    color: white;
+}
+.mark{
+    position: relative;
+}
+.mark::before,.mark::after {
+    content: '';
+    position: absolute;
+    background-color: #fff;
+    height: 100PX;
+    width: 100%;
+    top: -10%;
+    left: 0%;
+    transform: skewY(-3deg);
+
+}
+
+.summit h2 {
+    font-weight: 500;
+    color: rgb(146, 223, 23);
+    
+}
+.summit {
+    position: relative;
+}
+.summit::before,.summit::after {
+    content: '';
+    position: absolute;
+    background-color: #fff;
+    height: 100PX;
+    width: 100%;
+    top: -10%;
+    left: 0%;
+    transform: skewY(3deg)
+}
+
+.Anthony ul {
+    list-style-type: none;
+}
